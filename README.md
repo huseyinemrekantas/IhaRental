@@ -10,5 +10,7 @@ projelere katkıda bulunabileceğime emin olabilirsiniz.
 Herşey için teşekkürlerimi iletiyorum. İyi çalışmalar dilerim. Saygılarımla.
 
 Projede yapılanları anlattığım iki kısa video yüklemek istedim aşağıdaki linklerden erişebilirsiniz.
-https://drive.google.com/file/d/1cyRDhF_m-Mer3_RsEIFsOLxmBeysGDaB/view?usp=drive_link
-https://drive.google.com/file/d/1c1N0BRFZ28se3szyzkjrjyxKzdqkegrj/view?usp=sharing
+
+1-) https://drive.google.com/file/d/1cyRDhF_m-Mer3_RsEIFsOLxmBeysGDaB/view?usp=drive_link
+
+2-) https://drive.google.com/file/d/1c1N0BRFZ28se3szyzkjrjyxKzdqkegrj/view?usp=sharing
