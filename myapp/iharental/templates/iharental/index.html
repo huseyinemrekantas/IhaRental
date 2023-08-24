@@ -1,0 +1,27 @@
+<!-- base.html -->
+{% extends 'base.html' %} 
+{% block title %}İhalar{% endblock title %} 
+{%block content %}
+
+    <h2>İhalar</h2>
+    {% for iha in ihas %}
+
+        <p>
+            <label>{{ iha.id }}</label>|
+            <label>{{ iha.brand }}</label>|
+            <label>{{ iha.model }}</label>|
+            <label>{{ iha.weight }}</label>|
+            <label>{{ iha.iha_category }}</label>|
+            {% if iha.is_rented %}
+            <label style="color: red;">Müsait Değil</label>
+            <a href="{% url 'release' iha_id=iha.id %}" class="btn btn-danger" >Kiralamayı Bitir</a>
+            {% else %}
+            <label style="color: green;">Müsait</label>
+            <a href="{% url 'rent' iha_id=iha.id %}" class="btn btn-success">Kirala</a>
+            {% endif %}
+        </p>
+    {% endfor %}
+
+    <a href="{% url 'logout' %}" class="btn btn-danger">Çıkış</a>
+
+{% endblock content %}
